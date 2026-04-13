@@ -86,6 +86,7 @@ Best Use Cases
  - image = save build-time fixed content
  - bind mount = save files in host directory
  - named volume = save persistent service data managed by Docker
+
 Practical Rule
  - Use image for fixed versioned content
  - Use bind mount for development
