@@ -21,6 +21,7 @@ Characteristics
  - Suitable for fixed content
  - Suitable for versioned deployment
  - Not suitable for runtime-changing data
+
 Best Use Cases
  - Application code
  - Static website files
@@ -44,6 +45,7 @@ Characteristics
  - Changes on host are reflected immediately in container
  - Easy to inspect and manage with file explorer
  - Good for development and testing
+
 Best Use Cases
  - Frequently edited files
  - Development environment
@@ -70,6 +72,7 @@ Characteristics
  - Not stored in current project directory
  - Suitable for persistent service data
  - Commonly used for databases
+
 Best Use Cases
  - Database files
  - Service persistent data
