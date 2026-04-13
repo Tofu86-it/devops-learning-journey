@@ -1,0 +1,12 @@
+services:
+  web:
+    image: nginx
+    container_name: web1
+    ports:
+      - "8080:80"
+
+  app:
+    image: httpd
+    container_name: app1
+    ports:
+      - "8081:80"
