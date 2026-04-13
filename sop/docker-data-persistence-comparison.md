@@ -75,6 +75,7 @@ Best Use Cases
  - Service persistent data
  - Production-like storage
 4. Comparison Table
+
 | Method       | Stored Where           | Suitable For            | Advantages              | Limitations                |
 | ------------ | ---------------------- | ----------------------- | ----------------------- | -------------------------- |
 | image        | image layers           | fixed content           | versioned, reproducible | not good for changing data |
