@@ -92,7 +92,7 @@ docker compose logs app
 
 💡 Key Concepts
 
-nginx works as a reverse proxy
-app service does not need host port exposure
-service name app can be used directly in proxy_pass
-this is the foundation of a two-tier container architecture
+- nginx works as a reverse proxy
+- app service does not need host port exposure
+- service name app can be used directly in proxy_pass
+- this is the foundation of a two-tier container architecture
