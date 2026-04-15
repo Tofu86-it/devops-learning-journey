@@ -37,6 +37,9 @@ http://localhost:8081
 
 💡 Key Concepts
 A compose file can manage multiple services
+
 Each service usually maps to one container
+
 Services run in the same compose project network
+
 Compose describes the whole system, not just one container
