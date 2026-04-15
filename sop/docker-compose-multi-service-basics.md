@@ -34,6 +34,7 @@ http://localhost:8080
 http://localhost:8081
 5. Stop services
 ```docker compose -f .\compose-multi.yaml down```
+
 💡 Key Concepts
 A compose file can manage multiple services
 Each service usually maps to one container
