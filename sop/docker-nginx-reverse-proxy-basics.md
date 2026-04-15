@@ -89,7 +89,9 @@ docker compose logs app
 ```
 6. Stop services
 ```docker compose down```
+
 💡 Key Concepts
+
 nginx works as a reverse proxy
 app service does not need host port exposure
 service name app can be used directly in proxy_pass
