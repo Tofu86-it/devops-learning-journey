@@ -70,10 +70,9 @@ docker compose up -d --build
 http://localhost:8080
 5. Check logs
 ```docker compose logs app```
+
 💡 Key Concepts
 
   Environment variables separate configuration from source code
-  
   Docker Compose can inject settings into containers
-  
   The same app image can behave differently in different environments
