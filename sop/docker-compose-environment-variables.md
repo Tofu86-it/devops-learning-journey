@@ -73,6 +73,6 @@ http://localhost:8080
 
 💡 Key Concepts
 
-  Environment variables separate configuration from source code
-  Docker Compose can inject settings into containers
-  The same app image can behave differently in different environments
+  1.Environment variables separate configuration from source code
+  2.Docker Compose can inject settings into containers
+  3.The same app image can behave differently in different environments
