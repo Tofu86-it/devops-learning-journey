@@ -49,8 +49,13 @@ ip a
 cat /etc/os-release
 ```
 ⚠️ Common SSH Failure Causes
+
 Security Group does not allow TCP 22
+
 Source IP is incorrect
+
 Wrong login user
+
 Wrong key pair
+
 Using private IP instead of public IP
