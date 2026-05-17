@@ -38,6 +38,7 @@ Private EC2 outbound access
 Private EC2 -> Route Table -> NAT Gateway -> Internet Gateway -> Internet
 
 💡 Key Takeaways
+
 Public subnet = direct internet route via Internet Gateway
 
 Private subnet = no direct internet route
