@@ -32,11 +32,11 @@ TCP 3306 -> Source: app-sg
 ```
 🔍 Key Concepts
 
-SSH should not be open to the world
-Web ports may be public if the service is intended for internet users
-App ports should usually only allow traffic from the web layer
-Database ports should usually only allow traffic from the application layer
-Security Group source can be another Security Group, not only an IP or CIDR
+- SSH should not be open to the world
+- Web ports may be public if the service is intended for internet users
+- App ports should usually only allow traffic from the web layer
+- Database ports should usually only allow traffic from the application layer
+- Security Group source can be another Security Group, not only an IP or CIDR
 💡 Example Three-Layer Design
 ```
 web-sg
