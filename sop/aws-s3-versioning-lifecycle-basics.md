@@ -46,10 +46,12 @@ Older versions still consume storage and may increase cost.
 Version 1
 ```
 4. Upload the same file again with content:
-```Version 2```
-5. Observe object versions in the S3 console
-6. Delete the object and observe delete marker behavior
-7. Review Lifecycle rule options in the bucket settings
+```text
+Version 2
+```
+6. Observe object versions in the S3 console
+7. Delete the object and observe delete marker behavior
+8. Review Lifecycle rule options in the bucket settings
 💡 Key Takeaways
 - Versioning keeps historical versions of the same object key
 - Deleting a versioned object may create a delete marker
