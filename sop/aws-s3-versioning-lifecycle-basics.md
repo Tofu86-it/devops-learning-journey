@@ -49,9 +49,11 @@ Version 1
 ```text
 Version 2
 ```
+
 6. Observe object versions in the S3 console
 7. Delete the object and observe delete marker behavior
 8. Review Lifecycle rule options in the bucket settings
+
 💡 Key Takeaways
 - Versioning keeps historical versions of the same object key
 - Deleting a versioned object may create a delete marker
