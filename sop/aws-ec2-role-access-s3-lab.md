@@ -54,7 +54,7 @@ aws s3 ls s3://YOUR-BUCKET-NAME
 aws s3 cp s3://YOUR-BUCKET-NAME/day21-test.txt .
 cat day21-test.txt
 ```
-9. Verify denied access to unauthorized bucket
+8. Verify denied access to unauthorized bucket
 ```aws s3 ls s3://UNAUTHORIZED-BUCKET```
 💡 Key Takeaways
 - EC2 should use IAM Role instead of long-term access keys
